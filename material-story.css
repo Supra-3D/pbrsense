@@ -1,0 +1,10 @@
+/* An inline illustrated title: fixed geometry, no presentation layer or scroll interception. */
+.hero h1.material-title{width:min(640px,100%);margin:0 auto 18px;font-size:0;line-height:0;letter-spacing:0;white-space:normal}
+.material-wordmark{display:block;position:relative;width:100%;aspect-ratio:3000/570;overflow:hidden;isolation:isolate}
+.material-wordmark-inner{position:absolute;left:0;top:50%;width:100%;aspect-ratio:3;transform:translateY(-50%);display:grid;grid-template-columns:1274fr 1726fr;gap:0}
+.material-wordmark img{display:block;width:100%;height:auto;max-width:none;user-select:none;pointer-events:none}
+.material-wordmark img[hidden]{display:none}
+.material-wordmark-right{display:block;position:relative;min-width:0;aspect-ratio:1726/1000}
+.material-wordmark-right img{position:absolute;inset:0;width:100%;height:100%;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
+#rgb-to-pbr[hidden]{display:none}
+@media(max-width:760px){.hero h1.material-title{width:min(440px,100%);margin-bottom:18px}}
