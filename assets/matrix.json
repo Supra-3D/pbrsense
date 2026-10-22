@@ -1,0 +1,311 @@
+[
+  {
+    "id": "benchmark",
+    "label": "Test sets",
+    "methods": [
+      "SuperMat",
+      "IDArb",
+      "DiffusionRenderer",
+      "PBRSense",
+      "GT"
+    ],
+    "items": [
+      {
+        "id": "barber_chair",
+        "label": "Barber chair",
+        "dataset": "PolyHaven-315",
+        "methods": {
+          "SuperMat": {
+            "roughness": "assets/matrix/benchmark/barber_chair/SuperMat/roughness.png",
+            "albedo": "assets/matrix/benchmark/barber_chair/SuperMat/albedo.png",
+            "metallic": "assets/matrix/benchmark/barber_chair/SuperMat/metallic.png"
+          },
+          "IDArb": {
+            "normal": "assets/matrix/benchmark/barber_chair/IDArb/normal.png",
+            "roughness": "assets/matrix/benchmark/barber_chair/IDArb/roughness.png",
+            "albedo": "assets/matrix/benchmark/barber_chair/IDArb/albedo.png",
+            "metallic": "assets/matrix/benchmark/barber_chair/IDArb/metallic.png"
+          },
+          "DiffusionRenderer": {
+            "metallic": "assets/matrix/benchmark/barber_chair/DiffusionRenderer/metallic.png",
+            "normal": "assets/matrix/benchmark/barber_chair/DiffusionRenderer/normal.png",
+            "roughness": "assets/matrix/benchmark/barber_chair/DiffusionRenderer/roughness.png",
+            "albedo": "assets/matrix/benchmark/barber_chair/DiffusionRenderer/albedo.png"
+          },
+          "PBRSense": {
+            "normal": "assets/matrix/benchmark/barber_chair/PBRSense/normal.png",
+            "roughness": "assets/matrix/benchmark/barber_chair/PBRSense/roughness.png",
+            "albedo": "assets/matrix/benchmark/barber_chair/PBRSense/albedo.png",
+            "metallic": "assets/matrix/benchmark/barber_chair/PBRSense/metallic.png"
+          },
+          "GT": {
+            "normal": "assets/matrix/benchmark/barber_chair/GT/normal.png",
+            "roughness": "assets/matrix/benchmark/barber_chair/GT/roughness.png",
+            "albedo": "assets/matrix/benchmark/barber_chair/GT/albedo.png",
+            "metallic": "assets/matrix/benchmark/barber_chair/GT/metallic.png"
+          }
+        },
+        "input": "assets/matrix/benchmark/barber_chair/input/input.png"
+      },
+      {
+        "id": "lychee",
+        "label": "Lychee",
+        "dataset": "PolyHaven-315",
+        "methods": {
+          "SuperMat": {
+            "albedo": "assets/matrix/benchmark/lychee/SuperMat/albedo.png",
+            "metallic": "assets/matrix/benchmark/lychee/SuperMat/metallic.png",
+            "roughness": "assets/matrix/benchmark/lychee/SuperMat/roughness.png"
+          },
+          "IDArb": {
+            "albedo": "assets/matrix/benchmark/lychee/IDArb/albedo.png",
+            "metallic": "assets/matrix/benchmark/lychee/IDArb/metallic.png",
+            "normal": "assets/matrix/benchmark/lychee/IDArb/normal.png",
+            "roughness": "assets/matrix/benchmark/lychee/IDArb/roughness.png"
+          },
+          "DiffusionRenderer": {
+            "metallic": "assets/matrix/benchmark/lychee/DiffusionRenderer/metallic.png",
+            "normal": "assets/matrix/benchmark/lychee/DiffusionRenderer/normal.png",
+            "roughness": "assets/matrix/benchmark/lychee/DiffusionRenderer/roughness.png",
+            "albedo": "assets/matrix/benchmark/lychee/DiffusionRenderer/albedo.png"
+          },
+          "PBRSense": {
+            "normal": "assets/matrix/benchmark/lychee/PBRSense/normal.png",
+            "roughness": "assets/matrix/benchmark/lychee/PBRSense/roughness.png",
+            "albedo": "assets/matrix/benchmark/lychee/PBRSense/albedo.png",
+            "metallic": "assets/matrix/benchmark/lychee/PBRSense/metallic.png"
+          },
+          "GT": {
+            "normal": "assets/matrix/benchmark/lychee/GT/normal.png",
+            "roughness": "assets/matrix/benchmark/lychee/GT/roughness.png",
+            "albedo": "assets/matrix/benchmark/lychee/GT/albedo.png",
+            "metallic": "assets/matrix/benchmark/lychee/GT/metallic.png"
+          }
+        },
+        "input": "assets/matrix/benchmark/lychee/input/input.png"
+      },
+      {
+        "id": "red_barrel",
+        "label": "Red barrel",
+        "dataset": "PolyHaven-315",
+        "methods": {
+          "SuperMat": {
+            "metallic": "assets/matrix/benchmark/red_barrel/SuperMat/metallic.png",
+            "roughness": "assets/matrix/benchmark/red_barrel/SuperMat/roughness.png",
+            "albedo": "assets/matrix/benchmark/red_barrel/SuperMat/albedo.png"
+          },
+          "IDArb": {
+            "metallic": "assets/matrix/benchmark/red_barrel/IDArb/metallic.png",
+            "normal": "assets/matrix/benchmark/red_barrel/IDArb/normal.png",
+            "roughness": "assets/matrix/benchmark/red_barrel/IDArb/roughness.png",
+            "albedo": "assets/matrix/benchmark/red_barrel/IDArb/albedo.png"
+          },
+          "DiffusionRenderer": {
+            "metallic": "assets/matrix/benchmark/red_barrel/DiffusionRenderer/metallic.png",
+            "normal": "assets/matrix/benchmark/red_barrel/DiffusionRenderer/normal.png",
+            "roughness": "assets/matrix/benchmark/red_barrel/DiffusionRenderer/roughness.png",
+            "albedo": "assets/matrix/benchmark/red_barrel/DiffusionRenderer/albedo.png"
+          },
+          "PBRSense": {
+            "metallic": "assets/matrix/benchmark/red_barrel/PBRSense/metallic.png",
+            "albedo": "assets/matrix/benchmark/red_barrel/PBRSense/albedo.png",
+            "roughness": "assets/matrix/benchmark/red_barrel/PBRSense/roughness.png",
+            "normal": "assets/matrix/benchmark/red_barrel/PBRSense/normal.png"
+          },
+          "GT": {
+            "roughness": "assets/matrix/benchmark/red_barrel/GT/roughness.png",
+            "albedo": "assets/matrix/benchmark/red_barrel/GT/albedo.png",
+            "metallic": "assets/matrix/benchmark/red_barrel/GT/metallic.png",
+            "normal": "assets/matrix/benchmark/red_barrel/GT/normal.png"
+          }
+        },
+        "input": "assets/matrix/benchmark/red_barrel/input/input.png"
+      },
+      {
+        "id": "cherries_can",
+        "label": "Cherries can",
+        "dataset": "DTC",
+        "methods": {
+          "SuperMat": {
+            "albedo": "assets/matrix/benchmark/cherries_can/SuperMat/albedo.png",
+            "metallic": "assets/matrix/benchmark/cherries_can/SuperMat/metallic.png",
+            "roughness": "assets/matrix/benchmark/cherries_can/SuperMat/roughness.png"
+          },
+          "IDArb": {
+            "normal": "assets/matrix/benchmark/cherries_can/IDArb/normal.png",
+            "albedo": "assets/matrix/benchmark/cherries_can/IDArb/albedo.png",
+            "metallic": "assets/matrix/benchmark/cherries_can/IDArb/metallic.png",
+            "roughness": "assets/matrix/benchmark/cherries_can/IDArb/roughness.png"
+          },
+          "DiffusionRenderer": {
+            "roughness": "assets/matrix/benchmark/cherries_can/DiffusionRenderer/roughness.png",
+            "albedo": "assets/matrix/benchmark/cherries_can/DiffusionRenderer/albedo.png",
+            "metallic": "assets/matrix/benchmark/cherries_can/DiffusionRenderer/metallic.png",
+            "normal": "assets/matrix/benchmark/cherries_can/DiffusionRenderer/normal.png"
+          },
+          "PBRSense": {
+            "albedo": "assets/matrix/benchmark/cherries_can/PBRSense/albedo.png",
+            "metallic": "assets/matrix/benchmark/cherries_can/PBRSense/metallic.png",
+            "normal": "assets/matrix/benchmark/cherries_can/PBRSense/normal.png",
+            "roughness": "assets/matrix/benchmark/cherries_can/PBRSense/roughness.png"
+          },
+          "GT": {
+            "albedo": "assets/matrix/benchmark/cherries_can/GT/albedo.png",
+            "metallic": "assets/matrix/benchmark/cherries_can/GT/metallic.png",
+            "normal": "assets/matrix/benchmark/cherries_can/GT/normal.png",
+            "roughness": "assets/matrix/benchmark/cherries_can/GT/roughness.png"
+          }
+        },
+        "input": "assets/matrix/benchmark/cherries_can/input/input.png"
+      }
+    ]
+  },
+  {
+    "id": "wild",
+    "label": "In the wild",
+    "methods": [
+      "IDArb",
+      "PBRSense"
+    ],
+    "items": [
+      {
+        "id": "diamond_ring",
+        "label": "Diamond ring",
+        "dataset": "In the wild",
+        "methods": {
+          "IDArb": {
+            "albedo": "assets/matrix/wild/diamond_ring/IDArb/albedo.png",
+            "metallic": "assets/matrix/wild/diamond_ring/IDArb/metallic.png",
+            "roughness": "assets/matrix/wild/diamond_ring/IDArb/roughness.png",
+            "normal": "assets/matrix/wild/diamond_ring/IDArb/normal.png"
+          },
+          "PBRSense": {
+            "albedo": "assets/matrix/wild/diamond_ring/PBRSense/albedo.png",
+            "roughness": "assets/matrix/wild/diamond_ring/PBRSense/roughness.png",
+            "metallic": "assets/matrix/wild/diamond_ring/PBRSense/metallic.png",
+            "normal": "assets/matrix/wild/diamond_ring/qwen_score55_dmx_normal_46k_opaque/normal.png"
+          },
+          "DepthAnythingV3 (depth-to-normal)": {
+            "normal": "assets/matrix/wild/diamond_ring/depthanything_v3/normal.png"
+          },
+          "Marigold V2": {
+            "normal": "assets/matrix/wild/diamond_ring/marigold_v2/normal.png"
+          }
+        },
+        "input": "assets/matrix/wild/diamond_ring/input/input.png"
+      },
+      {
+        "id": "gold_watch",
+        "label": "Gold watch",
+        "dataset": "In the wild",
+        "methods": {
+          "IDArb": {
+            "albedo": "assets/matrix/wild/gold_watch/IDArb/albedo.png",
+            "metallic": "assets/matrix/wild/gold_watch/IDArb/metallic.png",
+            "roughness": "assets/matrix/wild/gold_watch/IDArb/roughness.png",
+            "normal": "assets/matrix/wild/gold_watch/IDArb/normal.png"
+          },
+          "PBRSense": {
+            "albedo": "assets/matrix/wild/gold_watch/PBRSense/albedo.png",
+            "roughness": "assets/matrix/wild/gold_watch/PBRSense/roughness.png",
+            "normal": "assets/matrix/wild/gold_watch/qwen_score55_dmx_normal_46k_opaque/normal.png",
+            "metallic": "assets/matrix/wild/gold_watch/PBRSense/metallic.png"
+          },
+          "DepthAnythingV3 (depth-to-normal)": {
+            "normal": "assets/matrix/wild/gold_watch/depthanything_v3/normal.png"
+          },
+          "Marigold V2": {
+            "normal": "assets/matrix/wild/gold_watch/marigold_v2/normal.png"
+          }
+        },
+        "input": "assets/matrix/wild/gold_watch/input/input.png"
+      },
+      {
+        "id": "blue_phone",
+        "label": "Blue phone",
+        "dataset": "In the wild",
+        "methods": {
+          "IDArb": {
+            "roughness": "assets/matrix/wild/blue_phone/IDArb/roughness.png",
+            "albedo": "assets/matrix/wild/blue_phone/IDArb/albedo.png",
+            "metallic": "assets/matrix/wild/blue_phone/IDArb/metallic.png",
+            "normal": "assets/matrix/wild/blue_phone/IDArb/normal.png"
+          },
+          "PBRSense": {
+            "albedo": "assets/matrix/wild/blue_phone/PBRSense/albedo.png",
+            "metallic": "assets/matrix/wild/blue_phone/PBRSense/metallic.png",
+            "normal": "assets/matrix/wild/blue_phone/qwen_score55_dmx_normal_46k_opaque/normal.png",
+            "roughness": "assets/matrix/wild/blue_phone/PBRSense/roughness.png"
+          },
+          "DepthAnythingV3 (depth-to-normal)": {
+            "normal": "assets/matrix/wild/blue_phone/depthanything_v3/normal.png"
+          },
+          "Marigold V2": {
+            "normal": "assets/matrix/wild/blue_phone/marigold_v2/normal.png"
+          }
+        },
+        "input": "assets/matrix/wild/blue_phone/input/input.png"
+      },
+      {
+        "id": "leather_key_tags",
+        "label": "Leather key tags",
+        "dataset": "In the wild",
+        "methods": {
+          "IDArb": {
+            "metallic": "assets/matrix/wild/leather_key_tags/IDArb/metallic.png",
+            "albedo": "assets/matrix/wild/leather_key_tags/IDArb/albedo.png",
+            "roughness": "assets/matrix/wild/leather_key_tags/IDArb/roughness.png",
+            "normal": "assets/matrix/wild/leather_key_tags/IDArb/normal.png"
+          },
+          "PBRSense": {
+            "roughness": "assets/matrix/wild/leather_key_tags/PBRSense/roughness.png",
+            "albedo": "assets/matrix/wild/leather_key_tags/PBRSense/albedo.png",
+            "metallic": "assets/matrix/wild/leather_key_tags/PBRSense/metallic.png",
+            "normal": "assets/matrix/wild/leather_key_tags/qwen_score55_dmx_normal_46k_opaque/normal.png"
+          },
+          "DepthAnythingV3 (depth-to-normal)": {
+            "normal": "assets/matrix/wild/leather_key_tags/depthanything_v3/normal.png"
+          },
+          "Marigold V2": {
+            "normal": "assets/matrix/wild/leather_key_tags/marigold_v2/normal.png"
+          }
+        },
+        "input": "assets/matrix/wild/leather_key_tags/input/input.png"
+      },
+      {
+        "id": "keys",
+        "label": "Keys",
+        "dataset": "In the wild",
+        "methods": {
+          "IDArb": {
+            "roughness": "assets/matrix/wild/keys/IDArb/roughness.png",
+            "albedo": "assets/matrix/wild/keys/IDArb/albedo.png",
+            "metallic": "assets/matrix/wild/keys/IDArb/metallic.png",
+            "normal": "assets/matrix/wild/keys/IDArb/normal.png"
+          },
+          "PBRSense": {
+            "roughness": "assets/matrix/wild/keys/PBRSense/roughness.png",
+            "albedo": "assets/matrix/wild/keys/PBRSense/albedo.png",
+            "metallic": "assets/matrix/wild/keys/PBRSense/metallic.png",
+            "normal": "assets/matrix/wild/keys/qwen_score55_dmx_normal_46k_opaque/normal.png"
+          },
+          "DepthAnythingV3 (depth-to-normal)": {
+            "normal": "assets/matrix/wild/keys/depthanything_v3/normal.png"
+          },
+          "Marigold V2": {
+            "normal": "assets/matrix/wild/keys/marigold_v2/normal.png"
+          }
+        },
+        "input": "assets/matrix/wild/keys/input/input.png"
+      }
+    ],
+    "methods_by_channel": {
+      "normal": [
+        "IDArb",
+        "Marigold V2",
+        "DepthAnythingV3 (depth-to-normal)",
+        "PBRSense"
+      ]
+    }
+  }
+]
