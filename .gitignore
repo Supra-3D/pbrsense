@@ -1,0 +1,8 @@
+# Python bytecode from local preview scripts
+__pycache__/
+*.pyc
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
